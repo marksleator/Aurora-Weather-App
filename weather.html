@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Aurora Weather App</title>
+	<meta name="author" content="Aurora Weather App" />
+	<meta name="description" content="" />
+	<meta name="keywords"  content="" />
+	
+
+    
+	<link rel="stylesheet" type="text/css" href="fullpage/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="fullpage/examples.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700" rel="stylesheet">
+    
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="fullpage/scrolloverflow.js"></script>
+
+	<script type="text/javascript" src="fullpage/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="fullpage/examples.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['firstPage', 'secondPage', '3rdPage'],
+				slidesNavigation: true,
+			});
+		});
+	</script>
+    
+    <style> 
+@font-face {
+   font-family: Dense;
+   src: url(fonts/Dense.otf),
+        url(fonts/dense-webfont.woff2) format('woff2'),
+        url(fonts/dense-webfont.woff) format('woff');
+        } </style>
+
+</head>
+<body>
+
+
+<div id="fullpage">
+    <div class="section " id="section0">
+		<div class="intro">
+			<container id="splash_container">
+        
+        <div id="splash_logo"><img src="images/logo.png"/></div>
+        
+        <h1 id="splash_h1">aurora</h1>
+             <div id="city_search">
+                            
+            <div id="city_form">
+                <input type="text" name="city" id="city" class="form_control" placeholder="SEARCH WEATHER BY CITY" style="text-transform:uppercase">
+            
+               <button id="submitCity"><img src="images/submit.png"><p>SEARCH</p></button>
+                
+                
+            </div>
+                 
+                                  
+        </div>
+        
+              </container>
+		</div>
+	</div>
+    
+	
+	<div class="section">
+	    <div class="slide" id="slide1">
+			
+            <div class="screen" id="screenOne">
+                
+                
+            
+                <div class="logo_small"><a href="#firstPage"><img src="images/logo_small.png"/></a></div>
+                
+               <h4 class="date"></h4>
+                
+                <div id="location_container">            
+                    <h5 id="location"></h5>
+                    <h6 id="country"></h6>
+                </div>
+                
+            <div id="currentIcon"></div> 
+            <!-- <div id="icon"><img src="images/icons/01d.png"/></div> -->
+                
+                
+                
+                
+                
+                
+            <div id="current_container_two">
+                
+                <div id="current_container_three">
+                   
+                <div id="column_left">
+                    <img src="images/down_arrow.png"/>
+                    <p>LOW TEMP</p>
+                    <h4 id="temperatureMin"></h4>
+                    
+                </div>
+                    
+                <div id="column_center">
+                    <h1 id="currentTemperature"></h1>
+                    <h4 id="currentWeather"></h4>
+                </div>
+            
+                <div id="column_right">
+                    <img src="images/up_arrow.png"/>
+                    <p>HIGH TEMP</p>
+                    <h4 id="temperatureMax"></h4>
+                </div>    
+            
+            </div>
+            
+                </div>
+        </div> 
+            
+            
+    
+        </div>
+
+	    <div class="slide" id="slide2">
+			
+                
+                <div class="screen" id="screenTwo">
+                    
+                    <div class="logo_small"><a href="#firstPage"><img src="images/logo_small.png"/></a></div>
+                    
+                    <h4 class="date"></h4>
+            
+            <div id="column_container">
+            <div id="column_left_two">
+                <img src="images/humidity.png"/>
+                <h3 id="humidity"></h3>
+                <p>HUMIDITY</p>
+            </div>
+            
+            <div id="column_center_two">
+                <img src="images/wind.png"/>
+                <h3 id="windSpeed"></h3>
+                <p>WIND</p>
+            </div>
+            
+            <div id="column_right_two">
+                <img src="images/cloudiness.png"/>
+                <h3 id="clouds"></h3>
+                <p>CLOUDINESS</p>
+            </div>
+                    </div>    
+            
+             
+            
+                 <table id="table_one">               
+                    <tbody id="hourlyWeather">
+                    </tbody>
+                </table>
+            
+                 
+            
+        
+        </div>
+            
+            </div>
+		
+
+		<div class="slide" id="slide3">
+			
+            
+                <div class="screen" id="screenThree">
+            
+                <div class="logo_small"><a href="#firstPage"><img src="images/logo_small.png"/></a></div>
+                    
+                    <h4 class="date"></h4>
+                    <div id="column_container_two">
+                        <div id="column_left_three">
+                            <img src="images/sunrise.png"/>
+                            <h3 id="sunrise"></h3>
+                            <p>SUNRISE</p>
+                        </div>
+
+                        <div id="column_right_three">
+                            <img src="images/sunset.png"/>
+                            <h3 id="sunset"></h3>
+                            <p>SUNSET</p>
+                        </div>
+                    </div>
+        
+            <table id="table_two">
+                <tbody id="forecastWeather">                   
+                                
+                </tbody>
+            </table>
+            
+        
+        
+        
+        
+    </div>
+            
+            </div>
+		</div>	
+</div>
+    
+    
+    <script src="js/weather.js"></script>
+    <script src="js/moment.js"></script>
+    
+</body>
+</html>
