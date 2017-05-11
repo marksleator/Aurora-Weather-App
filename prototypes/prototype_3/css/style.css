@@ -1,0 +1,18 @@
+ul#list_item{
+    text-align: center;
+    font-size: 2em;
+}
+
+#cityDiv{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+#screenTwo{
+    padding-top: 40px;
+}
+
+#screenThree{
+    padding-top: 40px;
+}
