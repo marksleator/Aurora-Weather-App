@@ -11,8 +11,8 @@
 
 #Brand
 
-<a href="https://github.com/marksleator/Aurora-Weather-App/blob/master/Brand.jpg">Final Brand</a>
-<a href="https://github.com/marksleator/Aurora-Weather-App/blob/master/Brand%20Guidelines%20%231.jpg">Brand Guidelines #1</a>
+<a href="https://github.com/marksleator/Aurora-Weather-App/blob/master/Brand.jpg">Final Brand</a><br>
+<a href="https://github.com/marksleator/Aurora-Weather-App/blob/master/Brand%20Guidelines%20%231.jpg">Brand Guidelines #1</a><br>
 <a href="https://github.com/marksleator/Aurora-Weather-App/blob/master/Brand%20Guidelines%20%232.jpg">Brand Guidelines #2</a>
 
 #Icon Set
@@ -22,8 +22,8 @@
 
 #Wireframes
 
-<a href="https://github.com/marksleator/Aurora-Weather-App/blob/master/Wireframe%20Lifecycle%20%231.jpg">Wireframe #1</a>
-<a href="https://github.com/marksleator/Aurora-Weather-App/blob/master/Wireframe%20Life%20Cycle%20%232.jpg">Wireframe #2</a>
+<a href="https://github.com/marksleator/Aurora-Weather-App/blob/master/Wireframe%20Lifecycle%20%231.jpg">Wireframe #1</a><br>
+<a href="https://github.com/marksleator/Aurora-Weather-App/blob/master/Wireframe%20Life%20Cycle%20%232.jpg">Wireframe #2</a><br>
 <a href="https://github.com/marksleator/Aurora-Weather-App/blob/master/Wireframe%20Life%20Cycle%20%233.jpg">Wireframe #3</a>
 
 
